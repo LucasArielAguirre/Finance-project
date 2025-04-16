@@ -10,10 +10,10 @@ function App() {
 
   return (
     <div style={{ display: 'flex', height: '100vh' }}>
-    <div style={{ width: '20%', backgroundColor: '#111', color: 'white' }}>
+    <div style={{ width: '20%', backgroundColor: '#000', color: 'white' }}>
       <Navbar />
     </div>
-    <div style={{ width: '80%', backgroundColor: '#1a1a1a', color: 'white', padding: '1rem' }}>
+    <div style={{ width: '80%', backgroundColor: '#000000', color: 'white', padding: '1rem' }}>
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/analytics" element={<Analytics />} />
