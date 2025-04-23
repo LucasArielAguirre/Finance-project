@@ -27,18 +27,15 @@ const Tables = () => {
         <thead>
           <tr>
             <th className="border border-white">Nombre</th>
-            <th className="border border-white">Apellido</th>
-            <th className="border border-white">Correo</th>
-            <th className="border border-white">Motivo</th>
+            <th className="border border-white">categoria</th>
             <th className="border border-white">Fecha</th>
-            <th className="border border-white">Ingreso o egreso</th>
+            <th className="border border-white">Ingreso</th>
+            <th className="border border-white">Egreso</th>
             <th className="border border-white">Monto</th>
           </tr>
         </thead>
         <tbody className="border border-white w-full h-full">
           <tr className="border border-white text-center">
-            <td className="border border-white">a</td>
-            <td className="border border-white">a</td>
             <td className="border border-white">a</td>
             <td className="border border-white">a</td>
             <td className="border border-white">a</td>
