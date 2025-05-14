@@ -20,27 +20,27 @@ const Tables = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-black w-full h-full"
+      className="bg-[#F9F4CC] w-full h-full"
     >
-      <h1 className="text-3xl text-white text-center">TABLES</h1>
-      <table className="w-full border-collapse border border-white">
+      <h1 className="text-3xl text-black text-center">TABLES</h1>
+      <table className="w-full border-collapse border border-black">
         <thead>
-          <tr>
-            <th className="border border-white">Nombre</th>
-            <th className="border border-white">categoria</th>
-            <th className="border border-white">Fecha</th>
-            <th className="border border-white">Ingreso</th>
-            <th className="border border-white">Egreso</th>
-            <th className="border border-white">Monto</th>
+          <tr className="text-black">
+            <th className="border border-black">Nombre</th>
+            <th className="border border-black">categoria</th>
+            <th className="border border-black">Fecha</th>
+            <th className="border border-black">Ingreso</th>
+            <th className="border border-black">Egreso</th>
+            <th className="border border-black">Monto</th>
           </tr>
         </thead>
-        <tbody className="border border-white w-full h-full">
-          <tr className="border border-white text-center">
-            <td className="border border-white">a</td>
-            <td className="border border-white">a</td>
-            <td className="border border-white">a</td>
-            <td className="border border-white">a</td>
-            <td className="border border-white">a</td>
+        <tbody className="border border-black w-full h-full">
+          <tr className="border border-black text-center text-black">
+            <td className="border border-black">a</td>
+            <td className="border border-black">a</td>
+            <td className="border border-black">a</td>
+            <td className="border border-black">a</td>
+            <td className="border border-black">a</td>
           </tr>
         </tbody>
       </table>

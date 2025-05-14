@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div style={{ display: 'flex', height: '100vh',   backgroundColor: '#F9F4CC' }}>
-    <div style={{ width: '20%', background: 'linear-gradient(to bottom left, #000000 20%, #1a0013 60%, #330026 90%)', color: 'white' }}>
+    <div style={{ width: '20%', background: 'linear-gradient(to bottom, #0c3b6e 20%,  #F9F4CC 100%)' }}>
       <Navbar />
     </div>
     <div style={{ width: '80%', backgroundColor: 'transparent', color: 'white', padding: '1rem' }}>
